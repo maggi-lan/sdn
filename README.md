@@ -133,6 +133,28 @@ cookie=0x0, priority=1,in_port=3 actions=output:2
 
 ---
 
+## Screenshots (Proof of Execution)
+
+### Baseline Controller Output
+![Baseline Controller](screenshots/0.png)
+
+### Baseline Performance Output
+![Baseline Performance](screenshots/1.png)
+
+### Baseline Flow Table Entries
+![Baseline Flow Tables](screenshots/2.png)
+
+### Forced Path Controller Output
+![Forced Path Controller](screenshots/3.png)
+
+### Forced Path Performance Output
+![Forced Path Performance](screenshots/4.png)
+
+### Forced Path Flow Table Entries
+![Forced Path Flow Tables](screenshots/5.png)
+
+---
+
 ## Explanation
 
 - **baseline.py**: Implements a learning switch that forwards packets based on MAC address learning.
